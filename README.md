@@ -1,6 +1,8 @@
 # Devil Launcher 😈🔥
 
 ### Hello and welcome to Devil Launcher! 😄👋
+<img width="1586" height="992" alt="Devil-launcher-preview" src="https://github.com/user-attachments/assets/df0594c0-fde9-4a00-aace-710e8469cfcd" />
+
 
 # Installation ⚙️🙂
 
