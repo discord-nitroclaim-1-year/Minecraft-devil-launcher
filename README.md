@@ -11,7 +11,7 @@
 ### -Run the file ▶️😄
 ### -Enjoy! 😈🔥
 ### -Sometimes it says windows detected a virus,
-### if this happens u need to turn off your'e
+### if this happens u need to turn off youre
 ### firewall/real time protetion❗
 
 # Opening The Menu 🖥️😄
