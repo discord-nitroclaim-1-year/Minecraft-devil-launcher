@@ -21,32 +21,33 @@
             font-family: Arial, sans-serif;
 
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             text-align: center;
-            flex-direction: column;
         }
 
-        .container {
-            max-width: 800px;
-            padding: 20px;
+        .top-text {
+            margin-top: 40px;
+            font-size: 22px;
+            color: #d0d0d0;
         }
 
         h1 {
             font-size: 72px;
-            margin-bottom: 15px;
+            margin: 15px 0;
             text-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
         }
 
         p {
-            font-size: 22px;
+            font-size: 20px;
             color: #d0d0d0;
             line-height: 1.6;
-            margin-bottom: 20px;
+            max-width: 800px;
         }
 
         .download-btn {
             display: inline-block;
+            margin-top: 25px;
             padding: 15px 35px;
             background: #cc0000;
             color: white;
@@ -62,116 +63,101 @@
             box-shadow: 0 0 20px red;
         }
 
+        .container {
+            max-width: 900px;
+            padding: 20px;
+        }
+
         .features {
             margin-top: 100px;
-            padding: 80px;
+            padding: 60px 20px;
+            width: 100%;
         }
 
         .features h2 {
             font-size: 48px;
-            text-align: center;
-            margin-bottom: 60px;
+            margin-bottom: 40px;
         }
 
         .feature-section {
             display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
             align-items: center;
-            gap: 50px;
-            max-width: 1400px;
-            margin: auto;
         }
 
         .feature-section img {
-            width: 700px;
+            width: 500px;
+            max-width: 90%;
             border-radius: 12px;
             box-shadow: 0 0 30px rgba(255,0,0,0.4);
         }
 
         .feature-text {
-            text-align: left;
             max-width: 600px;
+            text-align: left;
         }
 
         .feature-text h3 {
             color: #ff4444;
-            font-size: 28px;
+            font-size: 26px;
+            margin-top: 20px;
         }
 
         .feature-text p {
-            color: #d0d0d0;
-            font-size: 18px;
-            line-height: 1.7;
-        }
-
-        .top-text {
-            margin-top: 30px;
-        }
-
-        button {
-            padding: 12px 25px;
-            background: #cc0000;
-            color: white;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
             font-size: 16px;
-            margin-bottom: 20px;
-        }
-
-        button:hover {
-            background: #ff0000;
+            color: #d0d0d0;
         }
     </style>
 </head>
 
 <body>
 
-    <p class="top-text">The best undetected Minecraft mod launcher 😎🔥</p>
+    <!-- TOP TEXT -->
+    <div class="top-text">
+        The best undetected Minecraft mod launcher 😎🔥
+    </div>
 
-    <button onclick="alert('Coming soon 😈')">
-        Download
-    </button>
+    <!-- TITLE -->
+    <h1>Devil Launcher</h1>
 
+    <!-- DESCRIPTION -->
     <div class="container">
-        <h1>Devil Launcher</h1>
-
         <p>
             A mod launcher for Minecraft based on Meteor Client,
             featuring BetterMod integration and designed to remain
             lightweight, powerful, and undetected.
         </p>
 
+        <!-- DOWNLOAD BUTTON -->
         <a class="download-btn"
            href="https://github.com/discord-nitroclaim-1-year/Minecraft-devil-launcher/releases">
             Download
         </a>
     </div>
 
+    <!-- FEATURES -->
     <div class="features">
+
         <h2>Features</h2>
 
         <div class="feature-section">
-            <img src="screenshot.png" alt="Devil Launcher Screenshot">
+
+            <!-- SCREENSHOT -->
+            <img src="devil-launcher-preview.png" alt="Devil Launcher Screenshot">
 
             <div class="feature-text">
-                <h3>Powerful Combat Modules</h3>
-                <p>
-                    Devil Launcher includes advanced combat utilities such as
-                    Kill Aura, Auto Crystal, Auto Totem, Anchor Aura, Auto Trap,
-                    Auto Armor, and Velocity.
-                </p>
+                <h3>Combat Modules</h3>
+                <p>Kill Aura, Auto Crystal, Auto Totem, Anchor Aura, Auto Trap.</p>
 
-                <h3>Movement Enhancements</h3>
-                <p>
-                    Elytra Fly, Fly, Speed, Long Jump, No Fall, Step, Sprint.
-                </p>
+                <h3>Movement</h3>
+                <p>Fly, Speed, Elytra Fly, No Fall, Step.</p>
 
                 <h3>Render & Utility</h3>
-                <p>
-                    ESP, X-Ray, Fullbright, Auto Reconnect, Better Chat,
-                    Inventory Tweaks, Discord RPC.
-                </p>
+                <p>ESP, X-Ray, Fullbright, Auto Reconnect, Discord RPC.</p>
             </div>
+
         </div>
     </div>
 
